@@ -1,0 +1,83 @@
+body {
+    padding-bottom: 80px;
+}
+form {
+    border: 3px solid #ccc;
+    padding: 0 20px 25px 20px;
+    border-radius: 10px;
+}
+input[type=checkbox],
+input[type=radio] {
+    margin-right: 8px;
+}
+.form-label.capitalize {
+    text-transform: capitalize;
+}
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.checkbox-group .form-label {
+    width: 50%;
+}
+input[type=submit],
+.btn-link {
+    margin-top: 20px;
+}
+
+.selected-image img {
+    height: 25%;
+}
+
+#left {
+    float: left;
+    width: 70%;
+    background: red;
+    height: 100%;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 0.4em;
+}
+
+#content {
+    height:100vh;
+}
+
+#left img {
+    /*width: 100%;*/
+    height: auto;
+    max-width: 100%;
+    max-height:100%;
+}
+
+#right {
+    float: left;
+    width: 30%;
+    background: blue;
+    height: 100%;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 0.4em;
+}
+
+#right img {
+    /*width: 100%;*/
+    height: auto;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.select {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    width: 330px;
+    height: 100%;
+    border-bottom: 0px;
+    border-radius: 3px;
+    font-size: 12px;
+    box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, .5);
+}
+
